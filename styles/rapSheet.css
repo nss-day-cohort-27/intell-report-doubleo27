@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+}
+
+h1 {
+    color: blue;
+}
+
+.block-1 {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+
+}
+
