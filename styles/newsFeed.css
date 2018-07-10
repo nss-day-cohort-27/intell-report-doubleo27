@@ -1,0 +1,69 @@
+/* Kayla Reid */
+body {
+    background-color: rgb(235, 235, 235);
+
+}
+.header {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    background: radial-gradient(circle, black, black, black, rgb(235, 235, 235), rgb(235, 235, 235));
+    font-size: 3em;
+    color: white;
+    /* color: white;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black; */
+    
+}
+section {
+    background-color: dimgrey;
+    color: white;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black; 
+    padding-bottom: .6em;
+
+}
+
+
+.stars {
+    display: flex;
+    display: -webkit-flex;
+    background-color: rgb(29, 28, 27);
+    color: white;
+    padding-left: 2em;
+    font-size: 1em;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black; 
+    
+
+}
+.relevence {
+    margin-left: 5em;
+    padding-bottom: .1em;
+    display: flex;
+    display: -webkit-flex;
+}
+p {
+    padding-top: .65em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+.stars2 {
+    width: 20px;
+    height: 20px;
+    padding-top: 1.5em;
+}
+ul {
+    font-size: 1.3em;
+    list-style-type: none;
+}
