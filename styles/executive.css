@@ -1,5 +1,14 @@
-img {
+.img {
     border-radius: 50%;
+    height: 360px;
+    width: auto;
+}
+
+.img2{
+    height: 360px;
+    width: auto;
+    border-radius: 50%;
+    align-self: center;
 }
 
 .topnav {
@@ -21,35 +30,57 @@ img {
     color: black;
 }
 
-.topnav a.active {
+.topnav a:active {
     background-color: #ea9311;
     color: white;
 }
 
-h1{
-    text-align: center;
-
-}
-
 .flex-container {
     display: flex;
-  }
+    display: -webkit-flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: stretch;
+}
   
   .flex-container > div {
-    background-color: #f1f1f1;
-    margin-left: 2.5em;
-    padding: 20px;
+    background-color: #f1f1f1b4;
     font-size: 30px;
+    width: 12em;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
   }
 
-
-  .flex-container-2{
-      display: flex;
+  h1,h2,h3,h4{
+      text-align: center;
   }
 
-  .flex-container-2 div {
-    background-color: #f1f1f1;
-    margin-right: 5em;
-    padding: 20px;
-    font-size: 30px;
+  p{
+      text-align: center;
   }
+
+  body {
+    background: url(http://1.bp.blogspot.com/-KAu0p-g_GN0/UpUE9KstnfI/AAAAAAAACF4/noFdeLO-snw/s1600/Jail+Bars.jpg)
+    no-repeat center fixed;
+    background-size: cover;
+}
+
+h1{
+   background: radial-gradient(circle, rgba(51, 51, 51, 0.801), rgba(51, 51, 51, 0.801), rgba(51, 51, 51, 0.801), rgba(51, 51, 51, 0.801), rgb(235, 235, 235,0.801), rgb(235, 235, 235, 0.801));
+   font-size: 3em;
+   color: white;
+}
+
+footer { 
+    display: block;
+    background: radial-gradient(circle, rgba(51, 51, 51, 0.801), rgba(51, 51, 51, 0.801), rgba(51, 51, 51, 0.801), rgba(51, 51, 51, 0.801), rgb(235, 235, 235,0.801), rgb(235, 235, 235, 0.801));
+    color: white;
+}
+
+.email{
+    color: turquoise;
+}
